@@ -48,6 +48,12 @@ body {
 }
 
 /* ========== HERO SECTION ========== */
+ h1 {
+    color: #2ecc71;
+    font-size: 3rem;
+    text-align: left;
+}
+
 .hero {
     display: flex;
     align-items: center;
