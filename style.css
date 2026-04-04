@@ -22,7 +22,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #2c3e50;
+    background-color: #255b91;
     color: #fff;
 }
 
@@ -212,4 +212,8 @@ footer p {
 .back-to-top:hover {
     background-color: #0056b3;
     transform: scale(1.1);
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 4ad5fc55beb7c4bcbfaa9d52f232ff2a13de6751
