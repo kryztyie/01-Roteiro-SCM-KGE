@@ -49,9 +49,12 @@ body {
 
 /* ========== HERO SECTION ========== */
 h1 {
-    color: #2ecc71;       /* cor do Aluno B */
-    font-size: 2.5rem;    /* tamanho do Aluno A */
-    text-align: center;   /* alinhamento do Aluno A */
+    color: #2ecc71;
+    /* cor do Aluno B */
+    font-size: 2.5rem;
+    /* tamanho do Aluno A */
+    text-align: center;
+    /* alinhamento do Aluno A */
 }
 
 .hero {
@@ -147,4 +150,66 @@ footer p {
     margin: 5px 0;
 }
 
+/* ========== FORMULÁRIO DE CONTATO ========== */
+.contato form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
 
+.contato input,
+.contato textarea {
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    width: 100%;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contato input:focus,
+.contato textarea:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 5px rgba(13, 110, 253, 0.5);
+    outline: none;
+}
+
+.contato button {
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    background-color: #0d6efd;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.contato button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* ========== BOTÃO "VOLTAR AO TOPO" ==========
+(back-to-top já adicionado pelo JS) */
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #0d6efd;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 12px 16px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.back-to-top:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
